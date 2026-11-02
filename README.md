@@ -1,5 +1,5 @@
 # DriveVisionOcc
-3D occupancy prediction from multi-camera images (based on DriveOcc, evaluated on the nuScenes occupancy task).  
+It's a implementation of Tesla Occupancy network, but it only a single frame version, without temporal part. Temporal version will upload in the coming future. DriveVisionOcc is trained on the nuScenes occupancy dataset and I haved provided a mini set.  
 The prediction and the ground truth are shown as colored voxel grids; each voxel is 0.4 m and colored by its semantic class.
 
 # Demo
