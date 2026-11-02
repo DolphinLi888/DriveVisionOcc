@@ -1,6 +1,7 @@
 # DriveVisionOcc
 It's a implementation of Tesla Occupancy network, but it only a single frame version, without temporal part. Temporal version will upload in the coming future. DriveVisionOcc is trained on the nuScenes occupancy dataset and I haved provided a mini set.  
 The prediction and the ground truth are shown as colored voxel grids; each voxel is 0.4 m and colored by its semantic class.
+<img src="tesla_occupancy_network.png" width="70%"/>
 
 # Demo
 Two interactive replays are provided:
