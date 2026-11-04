@@ -4,7 +4,7 @@ The prediction and the ground truth are shown as colored voxel grids; each voxel
 <img src="tesla_occupancy_network.png" width="70%"/>
 
 # Performance
-Testset and traiset results visualized gifs are bellow. Testset seems unclear, but trainset is better, so the reason should be that the model need more data to train.
+Testset and traiset resulted gifs are bellow. Testset seems unclear, but trainset is good, so the reason should be that the model need more data to train.
 
 ##  testset
 <img src="gifs/replay_testset.gif" width="70%"/>
