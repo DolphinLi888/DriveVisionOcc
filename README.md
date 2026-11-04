@@ -18,7 +18,33 @@ Testset and traiset resulted gifs are bellow. Testset seems unclear, but trainse
 ## trainset compared with ground truth
 <img src="gifs/compare_trainset.gif" width="70%"/>
 
-# Usage
+# Quickstart
+The code has been tested on Ubuntu 22.04. An anaconda virtual env is recommended:
+
+```bash
+conda create -n drivevisionocc python=3.11
+conda activate drivevisionocc
+```
+
+And install the dependencies:
+
+```
+pytorch >= 2.1
+open3d >= 0.16.0
+opencv-python >= 4.7
+pyvista
+pillow
+```
+# Inference
+Put the model file `DriveVisionOcc.pt` in the root directory of the repository, then run:
+
+```bash
+python test.py
+```
+
+to run the inference and display the prediction as a voxel grid. The results (`*_pred_occ.ply`, `*_gt_occ.ply`, `*_cams_source.jpg`) are saved under `pred_dir/`.
+
+# Replay
 The replays read their data from `pred_dir_testset_already/` and `pred_dir_trainset_already/`.  
 Each sample is three files:
 
@@ -50,37 +76,4 @@ Controls:
 | `r` | reset the camera to the default viewpoint |
 | `q` / `ESC` | quit |
 
-# Make the demo GIFs
-The four GIFs above are generated with `make_demo_gifs.py` (offscreen rendering, no window pops up; ~10 s each):
 
-```bash
-python make_demo_gifs.py                 # all four combinations
-python make_demo_gifs.py replay testset  # a single combination
-```
-
-# Quickstart
-The code has been tested on Ubuntu 22.04. An anaconda virtual env is recommended:
-
-```bash
-conda create -n drivevisionocc python=3.10
-conda activate drivevisionocc
-```
-
-And install the dependencies:
-
-```
-pytorch >= 2.1
-open3d >= 0.16.0
-opencv-python >= 4.7
-pyvista
-pillow
-```
-
-# Inference
-Put the model file `DriveVisionOcc.pt` in the root directory of the repository, then run:
-
-```bash
-python test.py
-```
-
-to run the inference and display the prediction as a voxel grid. The results (`*_pred_occ.ply`, `*_gt_occ.ply`, `*_cams_source.jpg`) are saved under `pred_dir/`.
