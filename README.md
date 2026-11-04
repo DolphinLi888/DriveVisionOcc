@@ -3,24 +3,19 @@ It's a implementation of Tesla Occupancy network with optimized accerleration in
 The prediction and the ground truth are shown as colored voxel grids; each voxel is 0.4m and colored by its semantic class.
 <img src="tesla_occupancy_network.png" width="70%"/>
 
-# Demo
-Two interactive replays are provided:
+# Performance
+Testset and traiset results visualized gifs are bellow. Testset seems unclear, but trainset is better, so the reason should be that the model need more data to train.
 
-- `pred_results_replay.py` replays the stored predictions frame by frame in a single 3D window.
-- `pred_results_replay_compare.py` shows the prediction and the ground truth side by side in two linked panes, so they can be compared directly.
-
-In every GIF the 3D occupancy grid is on the left and the corresponding camera image is on the right.
-
-## pred_results_replay.py - testset
+##  testset
 <img src="gifs/replay_testset.gif" width="70%"/>
 
-## pred_results_replay.py - trainset
+##  trainset
 <img src="gifs/replay_trainset.gif" width="70%"/>
 
-## pred_results_replay_compare.py - testset
+##  testset compared with ground truth
 <img src="gifs/compare_testset.gif" width="70%"/>
 
-## pred_results_replay_compare.py - trainset
+## trainset compared with ground truth
 <img src="gifs/compare_trainset.gif" width="70%"/>
 
 # Usage
