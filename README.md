@@ -1,10 +1,10 @@
 # DriveVisionOcc
-It's a implementation of Tesla Occupancy network with optimized accerleration in spatial attention(source code is not opensoure now, when convinient it will opensource ). It is a single frame version, without temporal partition. Temporal version will upload in the coming future. DriveVisionOcc is trained on the nuScenes occupancy dataset and I haved provided a mini set.  
-The prediction and the ground truth are shown as colored voxel grids; each voxel is 0.4m and colored by its semantic class.
+It's a implementation of Tesla Occupancy Network with accerleration design in spatial attention for realtime inference(source code is not open source now, when convenient it will be open source ). It is a 3D volume query based tranformer 2d to 3d paradigm, not common bev based paradigm. It is a single frame version, not temporal. Temporal version(Occ Flow) will upload in the coming future. DriveVisionOcc is trained on the nuscenes occupancy dataset and a mini set is provided.  
 <img src="tesla_occupancy_network.png" width="70%"/>
 
 # Performance
-Testset and traiset resulted gifs are bellow. Testset seems unclear, but trainset is good, so the reason should be that the model need more data to train.
+Testset and traiset resulted gifs are illustrated bellow. The prediction and the ground truth are shown as colored voxel grids; each voxel is 0.4m and colored by its semantic class. 
+Testset seems unclear, but trainset is good, so the reason should be that the model need more data to train for hign performance.
 
 ##  testset
 <img src="gifs/replay_testset.gif" width="70%"/>
