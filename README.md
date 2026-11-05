@@ -4,7 +4,7 @@ It's a implementation of Tesla Occupancy Network with accerleration design in sp
 <img src="tesla_occupancy_network.png" width="70%"/>
 
 # Performance
-Testset and traiset resulted gifs are illustrated bellow. The prediction and the ground truth are shown as colored voxel grids; each voxel is 0.4m and colored by its semantic class. 
+Testset and trainset resulted gifs are illustrated bellow. The prediction and the ground truth are shown as colored voxel grids; each voxel is 0.4m and colored by its semantic class. 
 Testset seems unclear, but trainset is good, so the reason should be that the model need more data to train for hign performance.
 
 ##  testset
