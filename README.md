@@ -1,5 +1,6 @@
 # DriveVisionOcc
 It's a implementation of Tesla Occupancy Network with accerleration design in spatial attention for realtime inference(source code is not open source now, when convenient it will be open source ). It is a 3D volume query based tranformer 2d to 3d paradigm, not common bev based paradigm. It is a single frame version, not temporal. Temporal version(Occ Flow) will upload in the coming future. DriveVisionOcc is trained on the nuscenes occupancy dataset and a mini set is provided.  
+
 <img src="tesla_occupancy_network.png" width="70%"/>
 
 # Performance
