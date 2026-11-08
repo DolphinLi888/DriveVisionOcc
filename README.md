@@ -37,6 +37,10 @@ pyvista
 pillow
 ```
 # Inference
+Download scripted model checkpoint and miniset dataset from huggingface repository.
+'''
+https://huggingface.co/DolphinLi888/DriveVisionOcc/tree/main
+'''
 Put the model file `DriveVisionOcc.pt` in the root directory of the repository, then run:
 
 ```bash
