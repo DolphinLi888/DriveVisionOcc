@@ -69,7 +69,7 @@ python pred_results_replay_compare.py
 
 Controls:
 
-- mouse in the 3D window: rotate (left), pan (middle / shift+left), zoom (wheel)
+- mouse in the 3D window: rotate (left), move (middle / shift+left), zoom (wheel)
 - keys (focus the OpenCV "Image Window"):
 
 | key | action |
