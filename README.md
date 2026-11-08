@@ -41,7 +41,7 @@ Download scripted model checkpoint and miniset dataset from huggingface reposito
 ```
 https://huggingface.co/DolphinLi888/DriveVisionOcc/tree/main
 ```
-<img src="folder_tree.jpg" width="50%"/>
+<img src="folder_tree.jpg" width="30%"/>
 then run:
 
 ```bash
