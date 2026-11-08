@@ -5,7 +5,7 @@ It's a implementation of Tesla Occupancy Network with accerleration design in sp
 
 # Performance
 Testset and trainset resulted gifs are illustrated bellow. The prediction and the ground truth are shown as colored voxel grids; each voxel is 0.4x0.4x0.4m. 
-Testset seems unclear, but trainset is good, so the reason should be that the model need more data to train for hign performance.
+Testset seems unclear, but trainset is good, so the reason should be that the model need more data to train with single vision modality.
 
 ##  testset
 <img src="gifs/replay_testset.gif" width="70%"/>
