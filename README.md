@@ -51,8 +51,8 @@ python test.py
 to run the inference and display the predictions. The results (`*_pred_occ.ply`, `*_gt_occ.ply`, `*_cams_source.jpg`) are saved under `pred_dir/`.
 
 # Replay
-The replays read their data from `pred_dir_testset_already/` and `pred_dir_trainset_already/`.  
-Each sample is three files:
+You can also replay the miniset predicted results from folder `pred_dir_testset_already/` and `pred_dir_trainset_already/`.  
+Each display includes three files:
 
 ```
 {idx}_pred_occ.ply     # predicted occupancy voxels (x, y, z + rgb)
